@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top py-2">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""> LIFE ARTS</a>
+              <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""> <img src="./images/life-arts.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -38,12 +38,474 @@
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-primary" type="submit">Search</button>
                 </form>
-                <li class="px-3 mb-3 mb-md-0 ms-md-3 user"><a class="text-decoration-none d-flex align-items-center" href="#"><ion-icon name="person-outline"></ion-icon> Hello, Guest</a></li>
-                <li class="px-3  ms-md-3 d-inline-block cart"><a class="d-flex align-items-center" href="#"><ion-icon name="cart"></ion-icon></a></li>
+                <li class="px-2 mb-3 mb-md-0 ms-md-3 user p-0"><a class="text-decoration-none d-flex align-items-center" href="#"><ion-icon name="person-outline"></ion-icon> Hello, Guest</a></li>
+                <li class="ms-md-3 d-inline-block cart"><a class="d-flex align-items-center" href="#"><ion-icon name="cart"></ion-icon></a></li>
               </div>
             </div>
         </nav>
     </header>
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/slider-image/slider-image1.png" class="d-block w-100" alt="slider-image1">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slider-image/slider-image2.png" class="d-block w-100" alt="slider-image2">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slider-image/slider-image3.png" class="d-block w-100" alt="slider-image3">
+              </div>
+            </div>  
+          </div>
+    </section>
+    <section class="py-5" id="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-4">
+                    <div class="feature-item">
+                        <img class="rounded-2 w-100" src="./images/feature-items/product-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-4">
+                    <div class="feature-item ">
+                        <img class="rounded-2 w-100" src="./images/feature-items/product-2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-4">
+                    <div class="feature-item">
+                        <img class="rounded-2 w-100" src="./images/feature-items/product-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="feature-item">
+                        <img class="rounded-2 w-100" src="./images/feature-items/product-4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="feature-item">
+                        <img class="rounded-2 w-100" src="./images/feature-items/product-5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item">
+                        <img class="rounded-2 w-100" src="./images/feature-items/product-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="delivery">
+    </section>
+    <section class="py-5" id="featured-product">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-center pb-3">FEATURED PRODUCT</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-4">
+                    <div class="product-item">
+                        <img src="./images/product-items/shoes.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Adidas Shoes</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 m-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/bag.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Hand Bag</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/lipstic.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Lipstick</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/lotion.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Body Oil</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/lipstic-case.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Mey Bellin</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/loreal.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>L'OREAL</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/side-bag.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Ladies Bag</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-item">
+                        <img src="./images/product-items/perfume.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Perfume</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="blog">
+        <div class="row m-0">
+            <div class="col-md-6 p-0">
+                <div class="blog-item">
+                    <img class="w-100" src="./images/bg/blog.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 p-0">
+                <div class="blog-item-right pt-5 ps-5">
+                    <h2>OUR BLOG</h2>
+                    <p class="w-75">Follow Our Blog And See What Experts Say And Suggest About Latest Beauty Tips. To Know More Details Visit Our Blog Page.</p>
+                    <a href="#" class="btn text-white blog-btn">VISIT OUR BLOG</a>
+                    <div class="d-none d-lg-flex align-items-center justify-content-between blog-social">
+                        <h5>TO STAY UPDATE, FOLLOW US  ON</h5>
+                        <div class="d-flex blog-links">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section class="py-5" id="trendy-product">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-center pb-3">TREANDY COLLECTION</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-4">
+                    <div class="product-item">
+                        <img src="./images/product-items/oil.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Venus</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 m-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/super-shoes.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Superstar</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/watch.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Watch</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/school-bag.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Travel Bag</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/nelpolish.jpg" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Nel Polish</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/face-mask.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Face Mask</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <div class="product-item">
+                        <img src="./images/product-items/venus.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Venus</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-item">
+                        <img src="./images/product-items/perfume.png" alt="">
+                        <div class="product-detail p-3">
+                            <h3>Perfume</h3>
+                            <p>Adidas Brow Drama Pomade Crayon Medium Brown</p>
+                            <h4>120$</h4>
+                            <div class="rating d-flex justify-content-between align-items-center">
+                                <div class="stars">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                                <div class="buy-icon">
+                                    <ion-icon name="add"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- exclusive offer section -->
+    <section class="py-lg-5" id="exclusive-offer">
+        <div class="container">
+            <div class="offer-box d-flex flex-column align-items-center">
+                <h3 class="pt-3">EXCLUSIVE OFFERS</h3>
+                <h5>For Members</h5>
+                <a class="btn offer-btn mb-5 mb-md-4" href="#">CONTACT NOW</a>
+            </div>
+        </div>
+    </section>
 
 
 

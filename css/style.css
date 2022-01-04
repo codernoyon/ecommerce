@@ -1,8 +1,15 @@
 *{
     list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
+.carousel-inner img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
 
 .user a{
     color: #000;
@@ -11,6 +18,14 @@
 .user a ion-icon{
     font-size: 20px;
     margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.user a ion-icon:hover{
+    background-color: rgb(8, 8, 8);
+    color: #fff;
 }
 
 .navbar-nav .nav-item{
@@ -44,6 +59,172 @@
 
 
 .cart a ion-icon{
-    font-size: 20px;
+    font-size: 22px;
     color: #000;
+
+}
+
+.feature-item{
+    height: 300px;
+}
+
+.feature-item img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#delivery{
+    background-image: url(../images/bg/free-delivery.jpg);
+    background-size: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+
+}
+
+
+/* ----featured product section---- */
+
+.section-title h2{
+    position: relative;
+    font-size: 30px;
+}
+.section-title h2::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    background-color: #0d91fd8c;
+    width: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.product-item{
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 1px 0px 8px lightgray;
+    transition: .3s;
+}
+
+.product-item:hover{
+    box-shadow: 3px 2px 12px lightgray;
+    transform: scale(1.01);
+}
+
+.product-item img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.product-detail{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.stars{
+    color: orange;
+}
+
+.buy-icon{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 31px;
+    text-align:center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+.buy-icon ion-icon{
+    font-weight: 800;
+    color: #000;
+}
+
+.buy-icon:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.buy-icon:hover ion-icon{
+    color: #fff;
+}
+
+
+/* ----blog section---- */
+
+.blog-item-right{
+    background-image: url(../images/bg/bg-blog.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.blog-item-right h2{
+    color:rgb(56, 56, 56);
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.blog-item-right .blog-btn{
+    background-color: #00A3FF;
+    padding: 8px 30px;
+}
+
+.blog-item-right .blog-btn:hover{
+    background: transparent;
+    color: #000 !important;
+    border: 1px solid #00A3FF;
+}
+
+.blog-social{
+    background-color: #414D60;
+    position: absolute;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    bottom: 70px;
+    width: 80%;
+}
+
+.blog-social h5{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.blog-links a{
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid transparent;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.blog-links a:hover{
+    border: 1px solid #fff;
+}
+
+
+/* ---- exclusive offer section */
+
+#exclusive-offer{
+    background-image: url(../images/bg/exclusive-offer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.offer-btn{
+    background-color: #fff;
+    color: #00A3FF;
+    font-size: 14px;
+    padding: 8px 25px;
+}
+
+.offer-btn:hover{
+    border: 1px solid #000;
 }
