@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.carousel-inner img{
+.slider-img img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -76,8 +76,9 @@
 
 #delivery{
     background-image: url(../images/bg/free-delivery.jpg);
-    background-size: 100%;
-    height: 160px;
+    background-size: cover;
+    height: 120px;
+    background-position: center center;
     background-repeat: no-repeat;
 
 }
@@ -215,7 +216,8 @@
 #exclusive-offer{
     background-image: url(../images/bg/exclusive-offer.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
 }
 
 .offer-btn{
